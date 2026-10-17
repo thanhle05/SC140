@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+    background-image: url('Background.png');
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'DM Sans', sans-serif;
+    margin: 50px 70px;
+    padding: 0 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+figure {
+  text-align: center;
+}
+
+img {
+  width: 600px;
+  height: auto;
+}
+
+figcaption {
+  font-size: 15px;
+}
+
+nav a {
+  color: #602437;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a.current {
+  color: #b9375e;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 2px solid #b9375e;
+}
+
+.tour-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tour-list li {
+  background-image: url("kimja.jpg");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: left center;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.tour-list a {
+  color: #7855b8;
+  text-decoration: none;
+  font-size: 17px;
+  transition: color 0.2s;
+}
+
+.tour-list a:hover {
+  color: #4197ec;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
