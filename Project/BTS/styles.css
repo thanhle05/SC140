@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Huninn&display=swap');
+
+body {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header {
+    text-align: center;
+    background-color: #e6d6f5;
+    padding: 60px 20px;
+    width: 100%;
+    height: 200px;
+    background-image: url("bts(5).jpg");
+    background-size: contain;
+    background-origin: padding-box;
+    background-clip: padding-box;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    font-size: 50px;
+    color: #9442db;
+    text-shadow: 2px 2px 4px #a995b7;
+}
+
+header p {
+    font-size: 20px;
+    color: #e5d5d5;
+}
+nav {
+    text-align: center;
+    background-color: #b19cd9;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #5b2c83;
+}
+
+figure {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 400px;
+}
+
+figure img {
+    width: 400px;
+    height: auto;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    margin-top: 3px;
+}
+
+h2 {
+    font-family: 'Huninn', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #5b2c83;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+main {
+    margin: 40px auto;
+    padding: 25px;
+    border: 2px solid #5b2c83;
+    border-radius: 7px;
+    box-shadow: 0 4px 10px #5b2c83;
+}
+
+.wrapper {
+    max-width: 100%;
+    width: 860px;
+    margin: 0 auto;
+}
