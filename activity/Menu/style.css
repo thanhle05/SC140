@@ -1,0 +1,25 @@
+.menu{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+}
+
+.item{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #edb34f;
+}
+
+h1{
+    text-align: center;
+    color: #edb34f;
+}
+
+.special{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    grid-column: span 1;
+    background-color: #e6a7c4;
+}
