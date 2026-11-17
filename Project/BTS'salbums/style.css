@@ -86,7 +86,7 @@ main {
 
 .wrapper {
     width: 90%;
-    max-width: fit-content;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
