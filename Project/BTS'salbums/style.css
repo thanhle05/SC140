@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Commissioner", sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+main {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8b5d2;
+}
+
+header {
+    background-color: #a06ec4;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #cba9ef;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #2d0065;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #ebe0f5;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #e1d1ea;
+    text-align: center;
+    color: #64389e;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e384af;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #360153;
+    padding: 15px;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+    nav {
+        display: block;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}
