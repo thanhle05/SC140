@@ -23,8 +23,10 @@ aside {
 
 header {
     background-color: #a06ec4;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
+    font-size: 1.5rem;
+    
 }
 
 nav {
@@ -41,11 +43,11 @@ nav a {
     color: #2d0065;
     text-decoration: none;
     margin: 0 10px;
+    padding: 10px;
 }
 
 nav a:hover {
     background-color: #ebe0f5;
-    padding: 5px;
 }
 
 table {
