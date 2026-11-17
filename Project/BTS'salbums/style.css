@@ -79,6 +79,11 @@ caption {
     padding: 15px;
 }
 
+main {
+    min-width: 0;
+    padding: 20px;
+}
+
 .wrapper {
     width: 90%;
     max-width: fit-content;
